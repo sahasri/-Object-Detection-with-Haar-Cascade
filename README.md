@@ -19,7 +19,7 @@ The evaluation of the model's performance is based on:
 
 The accuracy is calculated as:
 
-    \[ \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN} \]
+   $$ \text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN} $$
 
 The tuning function iterates through different combinations of parameters to find the best configuration for maximizing accuracy.
 
@@ -34,7 +34,7 @@ This project uses two datasets:
 1. Clone the repository:
    ```bash
    git clone https://github.com/sahasri/Object-Detection-with-Haar-Cascade.git
-   cd face-detection
+   cd Object-Detection-with-Haar-Cascade
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
