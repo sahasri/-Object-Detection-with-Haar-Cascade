@@ -41,7 +41,10 @@ This project uses two datasets:
 3. Download dataset: The required datasets are included in the repository as zip files. 
 - **faces-dataset.zip**: This zip file contains 200 images of faces of human.
 - **non-faces_dataset.zip**: This zip file contains 200 images of non-faces, such as flowers, airplanes, motorcycles, nature, dogs, and cats.
-
+- And also datasets are available in kaggle.
+  ```bash
+    kaggle datasets download -d sahasrimanimendra/non-faces-dataset
+    kaggle datasets download -d sahasrimanimendra/faces-dataset
 
  ## File Structure
 ```bash
